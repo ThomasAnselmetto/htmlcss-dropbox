@@ -41,12 +41,12 @@ a {
     background-color: red;
 }
 
-section {
-    height: 30rem;
-}
+
 
 footer {
+    height: 20rem;
     background-color: black;
+    color: white;
 }
 
 /* header */
@@ -177,6 +177,7 @@ header {
 /* footer */
 
 .upper-footer {
+    height: 15rem;
     display: flex;
     justify-content: space-between;
     background-color: aqua;
