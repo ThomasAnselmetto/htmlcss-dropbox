@@ -42,12 +42,11 @@ a {
 }
 
 section {
-    height: 20rem;
+    height: 30rem;
 }
 
 /* header */
 header {
-    background-color: black;
     height: 5rem;
     width: 100%;
     display: flex;
