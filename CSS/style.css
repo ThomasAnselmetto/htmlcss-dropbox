@@ -122,11 +122,6 @@ header {
     background-color: darkmagenta;
 }
 
-
-
-
-
-
 /* section-medium-high */
 
 .section-medium-high {
@@ -205,16 +200,18 @@ h2 {
 .features-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     width: 100%;
-    background-color: blue;
 }
 
 .feature {
-    width: calc(100% / 3);
-    background-color: blueviolet;
-    border: 2px solid black;
-    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: calc(100% / 3 - 20px);
+    margin: 4rem 0;
 }
+
 
 
 /* section-bottom-client */
