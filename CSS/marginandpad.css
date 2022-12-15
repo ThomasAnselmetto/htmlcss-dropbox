@@ -18,6 +18,10 @@
     margin-top: 75px;
 }
 
+.margin-top-10rem {
+    margin-top: 10rem;
+}
+
 .margin-bottom-15 {
     margin-bottom: 15px;
 }
@@ -38,8 +42,21 @@
     margin-bottom: 75px;
 }
 
-.margin-top-10rem {
-    margin-top: 10rem;
+.margin-bottom-10rem {
+    margin-bottom: 10rem;
+}
+
+
+.margin-top-5rem {
+    margin-top: 5rem;
+}
+
+.margin-base {
+    margin: 1.5rem
+}
+
+.padding {
+    padding: 1.5rem;
 }
 
 .padding-top-15 {
@@ -80,4 +97,13 @@
 
 .padding-bottom-75 {
     padding-bottom: 75px;
+}
+
+.margin-right-2rem {
+    margin-right: 2rem;
+}
+
+.MandG {
+    margin: 1rem 0;
+    padding: 1rem 0;
 }

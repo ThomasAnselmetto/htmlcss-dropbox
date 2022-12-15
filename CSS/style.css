@@ -39,10 +39,6 @@ a {
     display: flex;
 }
 
-.spartitore {
-    gap: 3.5rem;
-}
-
 .reverse {
     flex-direction: row-reverse;
 }
@@ -59,13 +55,13 @@ i {
 
 .container-large {
     width: 100%;
-    max-width: 1200px;
+    max-width: 70vw;
     margin: 0 auto;
 }
 
 .container-small {
     width: 100%;
-    max-width: 1000px;
+    max-width: 50vw;
     margin: 0 auto;
 }
 
@@ -98,7 +94,6 @@ header {
 /* section-high */
 
 .section-high {
-    height: 43rem;
     background-color: #B4D0E7;
 }
 
@@ -107,9 +102,8 @@ header {
 }
 
 .jumbotron>h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 700;
-    margin-bottom: 2rem;
 }
 
 .little {
@@ -117,7 +111,12 @@ header {
 }
 
 .little>* {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.btn-loc {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
 }
 
 .big {
@@ -125,11 +124,13 @@ header {
 }
 
 .push-down {
-    font-size: 50px;
-    position: relative;
-    top: 50px;
+    font-size: 45px;
 }
 
+.push-down2 {
+    position: relative;
+    top: 5rem;
+}
 
 
 
@@ -145,7 +146,7 @@ header {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2.3rem;
 }
 
 h3 {
@@ -199,6 +200,10 @@ h3 {
     gap: 1rem;
 }
 
+.content-4 {
+    display: flex;
+    gap: 1rem;
+}
 
 .low-subscription {
     margin: 4rem 0;
@@ -206,15 +211,30 @@ h3 {
 
 .enterprise {
     line-height: 1.8;
+
 }
 
 .column-title,
 .column-content,
-.enterprise {
-    border: 1px solid #D0D0D3;
+.bord-master {
+    border-left: 1px solid #D0D0D3;
+    border-right: 1px solid #D0D0D3;
+    border-bottom: 1px solid #D0D0D3;
 }
 
+.column-title {
+    border-top: 1px solid #D0D0D3;
+}
+
+
 /* section-medium-low */
+.mini-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-content: center;
+    margin-top: 3rem;
+}
 
 /* section-bottom-table */
 .features-list {
@@ -239,8 +259,6 @@ h3 {
 /* partners */
 .partners {
     display: flex;
-    height: 50rem;
-
 }
 
 .splitted-4-partners,
@@ -324,18 +342,57 @@ h3 {
     background-color: #FFFFFF;
 }
 
-/* .faq-row:active .ask {
+.ask1:hover.faq-row-1 {
     display: none;
 }
 
-.faq:hover .answer {
+.details1-row-1:hover.answer1 {
     display: block;
 }
 
-.answer {
+.answer1 {
     display: none;
 }
- */
+
+
+.details2:hover.ask2 {
+    display: none;
+}
+
+.details2:hover.answer2 {
+    display: block;
+}
+
+.answer2 {
+    display: none;
+}
+
+.details3:hover.ask3 {
+    display: none;
+}
+
+.details3:hover.answer3 {
+    display: block;
+}
+
+.answer3 {
+    display: none;
+}
+
+.ask1,
+.ask2,
+.ask3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
 
 /* footer */
 
@@ -351,18 +408,25 @@ h3 {
 
 /* utility */
 .button {
-    line-height: 1;
+    line-height: 0;
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid white;
     background-color: white;
     color: black;
     height: 2rem;
-    padding: 8px 10px 10px 8px;
+    padding: 14px 20px 14px 20px;
 }
 
 .button.blue {
     background-color: #0061FF;
+    border: 1px solid #0061FF;
     color: white;
+    padding: 12px 16px 12px 16px;
+}
+
+.borded {
+    border: 1px solid black;
+    width: 222px;
 }
 
 .blue-icon {
