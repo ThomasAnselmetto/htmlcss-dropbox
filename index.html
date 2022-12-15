@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/marginandpad.css">
 </head>
@@ -15,18 +18,18 @@
     <header>
 
         <ul class="header-links">
-            <li><a href="#">AAAAAAA</a></li>
-            <li><a href="#">BBBBBBB</a></li>
-            <li><a href="#">CCCCCCC</a></li>
-            <li><a href="#">DDDDDDD</a></li>
+            <li><a href="#"><img src="./img/logo-small.png" alt="dropbox-logo"></a></li>
+            <li><a href="#">Perchè dropbox</a></li>
+            <li><a href="#">Funzioni</a></li>
+            <li><a href="#">Piani e Prezzi</a></li>
         </ul>
 
 
         <ul class="header-links">
-            <li><a href="#">AAAAAAA</a></li>
-            <li><a href="#">BBBBBBB</a></li>
-            <li><a href="#">CCCCCCC</a></li>
-            <li><a href="#">DDDDDDD</a></li>
+            <li><a href="#">Supporto</a></li>
+            <li><a href="#">Contatta l'ufficio vendite</a></li>
+            <li><a href="#">Accedi</a></li>
+            <li><a class="blue-button" href="#">inizia</a></li>
         </ul>
 
 
@@ -45,10 +48,20 @@
     <main>
         <section class="section-high red">
             <div class="jumbotron container-large">
-                <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem id dolorum nam?</h1>
+                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 <div class="spartitore d-flex">
-                    <div class="write"></div>
-                    <div class="image"></div>
+                    <div class="write">
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
+                            posto.Dropbox Business è più di uno spazio di archiviazione sicuro:è un modo intelligente e
+                            integrato per ottimizzare il flusso di lavoro esistente.</p>
+                        <div><a class="blue-button" href="#">Inizia la tua prova gratuita</a></div>
+                        <div><a href="#">Annulla in qualsiasi momento</a></div>
+                        <div><a href="#"><i class="fa-solid fa-arrow-down"></i></a></div>
+                    </div>
+
+                    <div class="image">
+                        <img src="./img/jumbo.png" alt="jumbotron-client">
+                    </div>
                 </div>
             </div>
         </section>
@@ -57,39 +70,173 @@
         <section class="section-medium-high container-small">
             <div class="row">
                 <div>
-                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    <h2>Trova il piano business che fa per te</h2>
                 </div>
 
                 <div class="d-flex">
                     <div class="fatturazione">
                         <div class="radio"></div>
-                        <span>fatturazione</span>
+                        <span>fatturazione mensile</span>
                     </div>
                     <div class="fatturazione">
                         <div class="radio"></div>
-                        <span>fatturazione</span>
+                        <span>fatturazione annuale</span>
                     </div>
                 </div>
             </div>
 
 
             <div class="row-subscription">
+
                 <div class="column">
-                    <div class="column-title"></div>
-                    <div class="column-content"></div>
+                    <div class="column-title">
+                        <div><i class="fa-solid fa-earth-americas"></i>Singolo</div>
+                    </div>
+                    <div class="column-content">
+                        <div class="content-1">
+                            <h3>Professional</h3>
+                            <div class="bold-title">€ 12.00</div>
+                            <div class="frequency">/mese</div>
+                        </div>
+                        <div class="content-2">
+                            <div class="n-account"><i class="fa-solid fa-user"></i>1 utente</div>
+                            <div class="space"><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro
+                            </div>
+                            <div class="functions"><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività
+                                premium e
+                                condivisione file semplice e sicura</div>
+                        </div>
+                        <div class="content-3">
+                            <div><a class="blue-button" href="#">Prova gratis per 30 giorni</a></div>
+                            <span>oppure<a class="classic-link" href="#"> acquista ora</a></span>
+                        </div>
+                        <div class="content-4">
+                            <div class="bold-title">Punti salienti del piano</div>
+                            <div><span class="blue-icon"><i class="fa-solid fa-check"></i></span>Invia file fino a 100
+                                GB
+                                con Dropbox Transfert</div>
+                            <div><span class="blue-icon"><i class="fa-solid fa-check"></i></span>Cartelle offline su
+                                dispositivi mobili</div>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="column">
-                    <div class="column-title"></div>
-                    <div class="column-content"></div>
+
+                    <div class="column-title">
+                        <div><i class="fa-solid fa-earth-americas"></i>Team</div>
+                    </div>
+
+                    <div class="column-content">
+                        <div class="content-1">
+                            <h3>Professional</h3>
+                            <div class="bold-title">€ 12.00</div>
+                            <div class="frequency">/mese</div>
+                        </div>
+                        <div class="content-2">
+                            <div class="n-account"><i class="fa-solid fa-user"></i>1 utente</div>
+                            <div class="space"><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro
+                            </div>
+                            <div class="functions"><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività
+                                premium e
+                                condivisione file semplice e sicura</div>
+                        </div>
+                        <div class="content-3">
+                            <div><a class="blue-button" href="#">Prova gratis per 30 giorni</a></div>
+                            <span>oppure<a class="classic-link" href="#"> acquista ora</a></span>
+                        </div>
+                        <div class="content-4">
+                            <div class="bold-title">Punti salienti del piano</div>
+                            <div><span class="blue-icon"><i class="fa-solid fa-check"></i></span>Invia file fino a 100
+                                GB
+                                con Dropbox Transfert</div>
+                            <div><span class="blue-icon"><i class="fa-solid fa-check"></i></span>Cartelle offline su
+                                dispositivi mobili
+                            </div>
+                            <div><span class="blue-icon"><i class="fa-solid fa-check"></i></span>Cartelle offline su
+                                dispositivi mobili
+                            </div>
+                            <div><span class="blue-icon"><i class="fa-solid fa-check"></i></span>Cartelle offline su
+                                dispositivi mobili
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
+
+
+
+
+
+
+
                 <div class="column">
-                    <div class="column-title"></div>
-                    <div class="column-content"></div>
+                    <div class="column-title">
+                        <div><i class="fa-solid fa-earth-americas"></i>Azienda</div>
+                    </div>
+                    <div class="column-content">
+                        <div class="content-1">
+                            <h3>Professional</h3>
+                            <div class="bold-title">€ 12.00</div>
+                            <div class="frequency">/mese</div>
+                        </div>
+                        <div class="content-2">
+                            <div class="n-account"><i class="fa-solid fa-user"></i>1 utente</div>
+                            <div class="space"><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro
+                            </div>
+                            <div class="functions"><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività
+                                premium e
+                                condivisione file semplice e sicura</div>
+                        </div>
+                        <div class="content-3">
+                            <div><a class="blue-button" href="#">Prova gratis per 30 giorni</a></div>
+                            <span>oppure<a class="classic-link" href="#"> acquista ora</a></span>
+                        </div>
+                        <div class="content-4">
+                            <div class="bold-title">Punti salienti del piano</div>
+                            <div><span class="blue-icon"><i class="fa-solid fa-check"></i></span>Invia file fino a 100
+                                GB
+                                con Dropbox Transfert</div>
+                            <div><span class="blue-icon"><i class="fa-solid fa-check"></i></span>Cartelle offline su
+                                dispositivi mobili</div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div class="row-subscruption">
-                <div class="enterprire">
-                    <div>Dolorem id dolorum nam?</div>
+                <div class="enterprise">
+                    <div class="column-title">
+                        <div><i class="fa-solid fa-earth-americas"></i>Azienda</div>
+                    </div>
                     <div class="spartitore d-flex reverse">
                         <div class="write"></div>
                         <div class="image"></div>
@@ -171,7 +318,7 @@
 
         </section>
 
-        <section class="try-dropbox red">
+        <section id="try-dropbox-red">
             <div class="container-small">
                 <div class="spartitore reverse d-flex">
                     <div class="write"></div>
@@ -202,10 +349,6 @@
             </div>
         </section>
     </main>
-
-
-
-
     <footer>
         <div class="upper-footer container-large">
             <div class="footer-column">
@@ -260,6 +403,10 @@
         </div>
 
     </footer>
+
+
+
+
 
 </body>
 
