@@ -39,6 +39,10 @@ a {
     display: flex;
 }
 
+.spartitore {
+    gap: 3.5rem;
+}
+
 .reverse {
     flex-direction: row-reverse;
 }
@@ -65,14 +69,6 @@ i {
     margin: 0 auto;
 }
 
-.red {
-    background-color: red;
-}
-
-section {
-    height: 70rem;
-}
-
 footer {
     height: 20rem;
     background-color: black;
@@ -89,9 +85,6 @@ header {
     background-color: white;
     position: fixed;
     z-index: 1;
-
-
-
 }
 
 .header-links {
@@ -100,8 +93,6 @@ header {
     gap: 30px;
     align-items: center;
 }
-
-
 
 
 /* section-high */
@@ -118,20 +109,30 @@ header {
 .jumbotron>h1 {
     font-size: 6rem;
     font-weight: 700;
-    text-align: center;
     margin-bottom: 2rem;
 }
 
 .little {
     width: 30%;
-    background-color: chartreuse;
+}
+
+.little>* {
+    margin-bottom: 2rem;
 }
 
 .big {
-    height: 5rem;
     width: 70%;
-    background-color: darkmagenta;
 }
+
+.push-down {
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+}
+
+
+
+
 
 /* section-medium-high */
 
@@ -147,6 +148,9 @@ h2 {
     font-size: 3rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+}
 
 .radio {
     height: 15px;
@@ -158,22 +162,17 @@ h2 {
 
 .row-subscription {
     width: 100%;
-    background-color: blue;
     display: flex;
     justify-content: space-between;
+
 
 }
 
 .row-subscription>.column {
-    background-color: bisque;
-    border: 2px solid black;
-    width: calc(100% / 3);
-    margin: 0 2rem;
-
+    width: calc(100% / 3 - 2.5rem);
 }
 
 .column-title {
-    border: 2px dashed blue;
     height: 2rem;
     display: flex;
     justify-content: center;
@@ -184,7 +183,7 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    padding: 1.5rem 1rem;
+    padding: 2rem 1.5rem;
 }
 
 .column-content>.button {
@@ -203,6 +202,16 @@ h2 {
 
 .low-subscription {
     margin: 4rem 0;
+}
+
+.enterprise {
+    line-height: 1.8;
+}
+
+.column-title,
+.column-content,
+.enterprise {
+    border: 1px solid #D0D0D3;
 }
 
 /* section-medium-low */
@@ -305,10 +314,28 @@ h2 {
 }
 
 /* try-dropbox */
-
+#try-dropbox {
+    padding: 2rem 0;
+    background-color: #B4D0E7;
+}
 
 /* faq */
+.faq {
+    background-color: #FFFFFF;
+}
 
+/* .faq-row:active .ask {
+    display: none;
+}
+
+.faq:hover .answer {
+    display: block;
+}
+
+.answer {
+    display: none;
+}
+ */
 
 /* footer */
 
@@ -324,16 +351,22 @@ h2 {
 
 /* utility */
 .button {
+    line-height: 1;
     display: inline-block;
+    border: 1px solid black;
     background-color: white;
     color: black;
     height: 2rem;
-    padding: 7px 15px;
+    padding: 8px 10px 10px 8px;
 }
 
 .button.blue {
     background-color: #0061FF;
     color: white;
+}
+
+.blue-icon {
+    color: #0061FF;
 }
 
 .bold-title {
@@ -343,4 +376,12 @@ h2 {
 .classic-link {
     text-decoration: underline;
     color: #0061FF;
+}
+
+.DPbordeaux {
+    color: #61082B;
+}
+
+.frequency {
+    color: #999999;
 }
