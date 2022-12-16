@@ -85,6 +85,7 @@ footer {
     background-color: black;
     color: white;
     font-weight: bold;
+    padding-bottom: 4rem;
 }
 
 /* header */
@@ -321,12 +322,12 @@ h3 {
 
 .partners-elements>img {
     width: 50%;
+    height: 50%;
     filter: invert(1);
 }
 
 .el-1-LH {
-    width: 50%;
-    height: 50%;
+
     border: 25px solid #D1E9CD;
     background-color: #A2D39B;
 }
@@ -415,6 +416,12 @@ h3 {
     justify-content: space-between;
 }
 
+/* .answer1,
+.answer2,
+.answer3 {
+    display: flex;
+    justify-content: space-between;
+} */
 
 /* footer */
 
