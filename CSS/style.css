@@ -444,7 +444,6 @@ h3 {
     filter: invert(1);
     font-weight: bolder;
     box-shadow: 5px 5px 5px white;
-    box-shadow: 5px 5px 5px black;
 }
 
 .button.blue {
