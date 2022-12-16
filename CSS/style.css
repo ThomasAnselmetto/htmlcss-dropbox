@@ -90,7 +90,6 @@ footer {
 
 /* header */
 header {
-    height: 5rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -101,15 +100,18 @@ header {
 }
 
 .header-links {
-    height: 100%;
     display: flex;
     gap: 30px;
     align-items: center;
 }
 
-.header-link>li>a {
+header a {
     display: inline-block;
-    height: 100%;
+    line-height: 65px;
+}
+
+.button.blue.inizia {
+    line-height: 35px;
 }
 
 /* section-high */
@@ -119,7 +121,7 @@ header {
 }
 
 .jumbotron {
-    padding-top: 5rem;
+    padding-top: 7rem;
 }
 
 .jumbotron>h1 {
@@ -407,21 +409,12 @@ h3 {
     display: none;
 }
 
-
-
 .ask1,
 .ask2,
 .ask3 {
     display: flex;
     justify-content: space-between;
 }
-
-/* .answer1,
-.answer2,
-.answer3 {
-    display: flex;
-    justify-content: space-between;
-} */
 
 /* footer */
 
@@ -444,12 +437,14 @@ h3 {
     color: black;
     height: 2rem;
     padding: 10px;
+    box-shadow: 5px 5px 5px black;
 }
 
 .button>a:hover {
     filter: invert(1);
     font-weight: bolder;
-
+    box-shadow: 5px 5px 5px white;
+    box-shadow: 5px 5px 5px black;
 }
 
 .button.blue {
@@ -457,8 +452,10 @@ h3 {
     background-color: #0061FF;
     border: 1px solid #0061FF;
     color: white;
-    min-width: 100px;
-    padding: 5px 35px 5px 35px;
+    min-width: 80px;
+    padding: 5px 12px;
+    box-shadow: 5px 5px 5px black;
+
 }
 
 .button.blue:hover {
@@ -469,7 +466,7 @@ h3 {
 }
 
 .borded>a {
-    border: 1px solid black;
+
     max-width: 222px;
 }
 
